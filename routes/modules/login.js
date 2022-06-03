@@ -10,7 +10,7 @@ router.post('/', (req, res) => {
   if (user) {
     res.render('welcome', { name: user.firstName })
   } else {
-    res.render('index', { error: 'The email or password is incorrect' })
+    res.render('index', { error: 'The email or password is incorrect', email: req.body.email })
   }
 })
 

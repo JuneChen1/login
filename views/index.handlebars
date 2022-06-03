@@ -1,7 +1,7 @@
 <div id="index">
   <h1>Account Login</h2>
   <form action="/login" method="POST" id="login-form">
-    <input type="email" name="email" placeholder="email" required>
+    <input type="email" name="email" placeholder="email" value="{{ email }}" required>
     <input type="password" name="password" placeholder="password" required>
     <button id="sign-in-button">Sign in</button>
   </form>
