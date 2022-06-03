@@ -26,9 +26,9 @@ const users = [
   }
 ]
 
-function verifyUsers(email, password) {
-  const user = users.find(user => user.email === email 
-    && user.password === password)
+function verifyUsers (email, password) {
+  const user = users.find(user => user.email === email &&
+    user.password === password)
   return user
 }
 
