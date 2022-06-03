@@ -1,0 +1,36 @@
+* {
+  box-sizing: border-box
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+nav {
+  background-color: #343b41;
+  color: white;
+  display: flex;
+  justify-content: center;
+  padding: 15px 0;
+}
+
+#index {
+  display: flex;
+  flex-flow: column wrap;
+  align-items: center;
+  margin-top: 50px;
+}
+
+input {
+  margin: 10px 0;
+  height: 40px;
+  width: 300px;
+}
+
+#sign-in-button {
+  margin-top: 20px;
+  background-color: white;
+  padding: 10px 20px;
+  border-radius: 10px;
+}
