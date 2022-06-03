@@ -1,6 +1,8 @@
 <div id="index">
   <h1>Account Login</h2>
-  <input type="email" name="email" placeholder="email">
-  <input type="text" name="password" placeholder="password">
-  <button id="sign-in-button">Sign in</button>
+  <form action="/login" method="POST" id="login-form">
+    <input type="email" name="email" placeholder="email" required>
+    <input type="text" name="password" placeholder="password" required>
+    <button id="sign-in-button">Sign in</button>
+  </form>
 </div>
