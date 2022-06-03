@@ -9,10 +9,15 @@ html, body {
 
 nav {
   background-color: #343b41;
-  color: white;
   display: flex;
   justify-content: center;
   padding: 15px 0;
+}
+
+#nav-title {
+  color: white;
+  text-decoration: none;
+  font-size: larger;
 }
 
 #index {
@@ -21,6 +26,8 @@ nav {
   align-items: center;
   margin-top: 50px;
 }
+
+
 
 #login-form {
   display: flex;
