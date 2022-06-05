@@ -2,6 +2,14 @@ const express = require('express')
 const app = express()
 const port = 3000
 
+const session = require('express-session')
+app.use(session({
+  secret: 'secret',
+  resave: false,
+  saveUninitialized: true,
+  name: 'user'
+}))
+
 const routes = require('./routes')
 app.use(routes)
 
